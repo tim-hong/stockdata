@@ -1,0 +1,21 @@
+
+.SearchBar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3rem;
+}
+
+.react-date-picker__wrapper {
+    border: white solid 1px !important;
+}
+
+.SearchBar form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+input {
+    font-size: 2rem;
+    border: #cbcbcb;
+    padding: 1rem;
+}

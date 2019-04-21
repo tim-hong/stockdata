@@ -1,0 +1,11 @@
+.DateSelector {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+}
+
+.endDate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
