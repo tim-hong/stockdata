@@ -41,7 +41,7 @@ class Chart extends React.Component {
             const response = await quandl.get('/PRICES.json', {params: props});
             this.setState({data: response.data, previousTicker: this.props.ticker, previousStart: this.props.start, previousEnd: this.props.end, previousWidth: width, previousHeight: height})
             this.renderChart('close');
-            this.renderChart('volume');
+            //this.renderChart('volume');
         }
     }
 
